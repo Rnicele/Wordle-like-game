@@ -1,4 +1,15 @@
-const words = ["apples", "banana", "orange", "grapes"];
+const words = [
+  "apples",
+  "banana",
+  "orange",
+  "grapes",
+  "fabric",
+  "hobbies",
+  "labels",
+  "nachos",
+  "fishing",
+  "vacuum",
+];
 let targetWord = words[Math.floor(Math.random() * words.length)]; // The target word (can be randomized)
 let maxGuesses = 6; // Maximum number of guesses
 let currentGuess = 0;
